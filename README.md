@@ -23,7 +23,7 @@
 > 优点：操作简单
 > 
 > 缺点：argo默认随机通道，每次重启节点会变，需要更新订阅
-```
+```bash
 # 文件清单
 ./
   static/
@@ -38,7 +38,7 @@
 ## ** 方式二、 配置环境变量**
 > 环境变量配置文件：`env.conf`
 >
-> 配置后，进行base64编码，保存到envconf中
+> 配置后，进行base64编码，保存到`env.conf`中
 ```python
 _SUB_PATH='sub'
 _NAME='dbs-xray'
