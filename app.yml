@@ -1,0 +1,4 @@
+command: [
+  "gunicorn",
+  "app:app"
+]
